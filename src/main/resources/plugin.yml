@@ -1,0 +1,25 @@
+name: EffectsGUI
+version: 1.1
+main: lneux.effectsGUI.EffectsGUI
+api-version: 1.21
+commands:
+  efeitos:
+    description: Abre o menu de efeitos
+    usage: /efeitos
+permissions:
+  effectsgui.effect.jump:
+    default: op
+  effectsgui.effect.slowfall:
+    default: op
+  effectsgui.effect.speed:
+    default: op
+  effectsgui.effect.haste:
+    default: op
+  effectsgui.effect.waterbreathing:
+    default: op
+  effectsgui.effect.nightvision:
+    default: op
+  effectsgui.effect.fireresp:
+    default: op
+  effectsgui.effect.*:
+    default: op
